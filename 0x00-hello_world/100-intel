@@ -1,0 +1,12 @@
+#!/bin/bash
+# This script generates the assembly code (Intel syntax) of a C code and saves it in an output file.
+
+# Check if CFILE variable is set
+if [ -z "$CFILE" ]; then
+    echo "CFILE is not set."
+    exit 1
+fi
+
+# Generate the assembly code from the C file and save it as .s
+gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
+
