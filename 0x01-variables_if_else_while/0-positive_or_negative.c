@@ -1,3 +1,10 @@
+/**
+ * main - Entry point
+ *
+ * Description: This is the main function that generates a random number and
+ * checks if it's positive, zero, or negative.
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
