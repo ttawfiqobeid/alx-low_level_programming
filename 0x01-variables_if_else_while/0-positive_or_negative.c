@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 int main(void)
 {
@@ -25,8 +26,10 @@ int main(void)
 	return (0);
 =======
 #include <stdio.h> /* Include this header for printf */
+=======
+#include <stdio.h> // Include this header for printf
+>>>>>>> cca54fc3a54d6e7133ef0ed2af2532d565f8c790
 
-/* betty style doc for function main goes there */
 int main(void)
 {
     int n;
