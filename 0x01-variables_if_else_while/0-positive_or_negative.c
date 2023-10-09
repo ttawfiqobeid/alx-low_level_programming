@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> /* Include this header for printf */
+#include <stdio.h> // Include this header for printf
 
-/* betty style doc for function main goes there */
 int main(void)
 {
     int n;
