@@ -17,6 +17,6 @@ letter++;
 }
 letter = 'a';
 i++;
+_putchar('\n'); // Add a new line after each set of alphabets
 }
-_putchar('\n');
 }
