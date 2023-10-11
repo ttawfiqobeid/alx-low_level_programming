@@ -9,6 +9,6 @@
  */
 int add(int a, int b)
 {
-return a + b; /* Add parentheses around the expression
+return a + b; /* Add parentheses around the expression */
 }
 
