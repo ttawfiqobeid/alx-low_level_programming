@@ -1,37 +1,33 @@
 #include "main.h"
+#include <stdio.h>
 
-/**
- * fizz_buzz - prints numbers 1 to 100, replaces multiples of 3 with Fizz,
- * multiples of 5 with Buzz, and multiples of both with FizzBuzz
- */
 void fizz_buzz(void)
 {
-int i;
+char i;
 
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-_putchar_str("FizzBuzz");
+printf("FizzBuzz");
 }
 else if (i % 3 == 0)
 {
-_putchar_str("Fizz");
+printf("Fizz");
 }
 else if (i % 5 == 0)
 {
-_putchar_str("Buzz");
+printf("Buzz");
 }
 else
 {
-_putchar_int(i);
+printf("%d", i);
 }
 
 if (i != 100)
 {
-_putchar(' ');
+printf(" ");
 }
 }
-_putchar('\n');
+printf("\n");
 }
-
