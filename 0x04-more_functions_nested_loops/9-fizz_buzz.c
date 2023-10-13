@@ -1,10 +1,18 @@
 #include "main.h"
 #include <stdio.h>
+/**
+* main - Entry point for the program
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 fizz_buzz();
 return (0);
 }
+/**
+* fizz_buzz - Prints Fizz, Buzz, and FizzBuzz for multiples of 3 and 5
+*/
 void fizz_buzz(void)
 {
 char i;
