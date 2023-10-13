@@ -8,6 +8,7 @@
 
 int _isupper(int c)
 {
-char result = (c >= 'A' && c <= 'Z');
-return (result);
+if (c >= 'A' && c <= 'Z')
+return (1);
+return (0);
 }
